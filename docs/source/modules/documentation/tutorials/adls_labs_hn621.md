@@ -21,8 +21,9 @@ Plot a figure where the x-axis is the fixed point width and the y-axis is the hi
 Plot separate curves for PTQ and QAT at each precision to show the effect of post-quantization finetuning.
 
 **Answer:**
-PTQ results: [0.5, 0.8162, 0.8364, 0.83552]
-QAT results: [0.5, 0.8398, 0.8428, 0.84236]
+<!-- PTQ results: [0.5, 0.8162, 0.8364, 0.83552]
+QAT results: [0.5, 0.8398, 0.8428, 0.84236] -->
+![tut3_plot](imgs/tut3_accuracy_vs_quantization_configs.png)
 
 
 ### Tutorial 4
@@ -34,6 +35,7 @@ Plot a figure where the x-axis is the sparsity and the y-axis is the highest ach
 Plot separate curves for Random and L1-Norm methods to evaluate the effect of different pruning strategies.
 
 **Answer:** 
+![tut4_plot](imgs/tut4_sparsity_accuracy.png)
 
 
 ## Lab 2: Neural Architecture Search

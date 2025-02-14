@@ -1,3 +1,7 @@
+imgs/
+*.svg
+*.png
+
 # New environment
 aienginev2/
 llvm/
